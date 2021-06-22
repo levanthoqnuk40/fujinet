@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+.tldesign-login {
+	position: fixed;
+	width: -webkit-fill-available;
+	height: 100%;
+	overflow-y: auto;
+	padding: 20px;
+	background: #ccffff;
+}
+
+.tldesign-login .tldesign-login-header, .tldesign-login .tldesign-login-footer
+	{
+	width: -webkit-fill-available;
+	display: flex;
+}
+
+.tldesign-login .tldesign-login-header {
+	height: 10%;
+	border-bottom: 1px solid gray;
+	color: red;
+}
+
+.tldesign-login-header .header-title {
+	margin-left: 20px;
+	font-weight: bold;
+	font-family: 'Times New Roman';
+	font-size: 60px;
+}
+
+.tldesign-login .tldesign-login-content {
+	height: 84%;
+}
+
+.form-login {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+}
+
+.form-title {
+	font-size: 50px;
+	text-align: center;
+}
+
+.form .form-group {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.text-label {
+	width: 50%;
+}
+
+.text-input {
+	width: 100%;
+}
+
+.btn-custom {
+	padding: 5px;
+	width: 40%;
+	position: absolute;
+}
+
+.btn-custom.submit {
+	color: black;
+	background: #c0c0c0;
+	left: 0;
+	box-shadow: 1px 1px;
+}
+
+.btn-custom.clear {
+	color: black;
+	background: #c0c0c0;
+	right: 0;
+	box-shadow: 1px 1px;
+}
+
+.log.login {
+	height: 20px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.log.login.success {
+	color: rgb(0, 194, 65);
+}
+
+.log.login.faild {
+	color: red;
+}
+
+.text-field {
+	outline: none;
+	outline-style: none;
+	padding: 5px 10px;
+	box-shadow: -2px -2px;
+	width: 90%;
+	border: 0px;
+}
+
+.tldesign-login .tldesign-login-footer {
+	height: 5%;
+	border-top: 1px solid gray;
+}
