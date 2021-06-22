@@ -1,0 +1,134 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.tldesign-login {
+    position: fixed;
+    width: -webkit-fill-available;
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+    background: #ccffff;
+}
+
+.tldesign-login .tldesign-login-header, 
+.tldesign-login .tldesign-login-footer{
+    width: -webkit-fill-available;
+    display: flex;
+}
+.tldesign-login .tldesign-login-header {
+    height: 9%;
+    /* background: red; */
+    /* box-shadow: 0px 0px 5px gray; */
+    border-bottom: 1px solid gray;
+}
+.tldesign-login-header .header-title {
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    color: red;
+}
+
+.line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center ;
+    height: 30px;
+    position: relative;
+}
+.table .header-table{
+    display: flex;
+    background: #3366ff;
+    height: 30px;
+}
+.table .content-table{
+    display: flex;
+    height: 40px;
+}
+.table .yellow-stage{
+    background: #ffff99;
+    height: 70px;
+    align-items: center;
+    display: grid;
+    text-align: center;
+}
+
+.yellow-stage .container {
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+}
+
+.customerName, .gender, .birthday {
+    display: flex;
+    margin-right:190px;
+}
+.btn-search{
+    width: 120px;
+    box-shadow: 2px 2px ;
+}
+.control-page, .previous-feature, .next-feature{
+    margin-top: 20px;
+    display: flex;
+    align-items: center ;
+    position: relative;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-search,
+ .btn-add,
+ .btn-delete,
+.control-page .first-button,
+.control-page .previous-button,
+.control-page .next-button,
+.control-page .last-button{
+	background: #c0c0c0; 
+}
+
+.previous-feature {
+    left: 0;
+    position: absolute;
+
+}
+
+.next-feature{
+    position: absolute;
+    right: 0;
+
+}
+.tableheader{
+	background: #339966;
+}
+.tableView{
+    border-collapse:collapse;
+    width: 100%;
+    height: 40px;
+}
+.footer-table{
+    margin-top: 20px;
+    display: flex;
+}
+.footer-table .btn-add{
+    width: 120px;
+    box-shadow: 2px 2px;
+}
+.footer-table .btn-delete{
+    margin-left: 50px;
+    width: 120px;
+    box-shadow: 2px 2px;
+}
+.tldesign-login-footer {
+    margin-top: 390px;
+    height: 5%;
+    border-top: 1px solid gray;
+
+} 
+.tldesign-login-footer .footer{
+    margin-left: 10px;
+}
